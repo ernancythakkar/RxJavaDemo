@@ -1,5 +1,4 @@
 # RxJavaDemo
-<h1> Rxjava Demo </h1> 
 
 RxJava is a Java VM implementation of ReactiveX (Reactive Extensions): a library for composing asynchronous and event-based programs by using observable sequences.
 
