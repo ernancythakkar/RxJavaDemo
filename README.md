@@ -20,4 +20,4 @@ Observables are the sources for the data, they start providing data once a subsc
 A observable can have any number of subscribers. If a new item is emitted from the observable, the onNext() method is called on each subscriber. If the observable finishes its data flow successful, the onComplete() method is called on each subscriber. Similar, if the observable finishes its data flow with an error, the onError() method is called on each subscriber.
 
 
-![architecture_diagram]()
+![architecture_diagram](https://github.com/ernancythakkar/RxJavaDemo/blob/main/screenshots/rxjava.png)
