@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.2.2"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+         // Warning: this repository is going to shut down soon
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+ext {
+    rxadapter ="1.0.0"
+    retrofit="2.3.0"
+    retrofitgsonconverter="2.3.0"
+    rxjavaretrofit="1.0.0"
+    okhttp="3.4.1"
+    okhttpurlcon="3.0.1"
+    okhttpintercept ="3.4.1"
+    rxjava = "2.2.21"
+    rxandroid="2.0.1"
+    retrofitrxadapter="2.9.0"
+}
